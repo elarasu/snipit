@@ -5,8 +5,8 @@ simple snippets to test
 ## to run 
 
 ```sh
-dep init
-dep ensure -update
+go mod download
+go mod tidy
 go run hello.go
 ```
 
